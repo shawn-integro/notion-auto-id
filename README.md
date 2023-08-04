@@ -1,2 +1,1 @@
-# notion auto id
- 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshawn-integro%2Fnotion-auto-id&env=NOTION_KEY,NOTION_DATABASE_ID,NOTION_PAGE_TITLE,NOTION_PAGE_ID&envDescription=NOTION_KEY%3A%20the%20secret%20key%20for%20your%20Notion%20API%20integration.%20NOTION_DATABASE_ID%3A%20your%20database%20ID.%20NOTION_PAGE_TITLE%3A%20the%20name%20of%20your%20database%20page%20title%20property.%20NOTION_PAGE_ID%3A%20the%20name%20of%20your%20database%20page%20ID%20property.&project-name=notion-auto-id&repository-name=notion-auto-id)
