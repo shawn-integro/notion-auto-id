@@ -8,10 +8,10 @@ spec:
       repo_clone_url: https://github.com/shawn-integro/notion-auto-id.git
     envs:
     - key: NOTION_KEY
-      type: SECRET
+      scope: RUN_TIME
     - key: NOTION_DATABASE_ID
-      type: SECRET
+      scope: RUN_TIME
     - key: NOTION_PAGE_TITLE
-      type: SECRET
+      scope: RUN_TIME
     - key: NOTION_PAGE_ID
-      type: SECRET
+      scope: RUN_TIME
