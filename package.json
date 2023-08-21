@@ -4,7 +4,7 @@
   "description": "Automatically sets the title to match the ID",
   "main": "index.js",
   "engines": {
-    "node": "18.x"
+    "node": "17.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
