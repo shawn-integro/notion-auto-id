@@ -11,8 +11,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@notionhq/client": "^2.1.1",
-    "dotenv": "^16.0.1"
+    "@notionhq/client": "^2.1.1"//,
+    // "dotenv": "^16.0.1"
   },
   "author": "Shawn",
   "license": "MIT"

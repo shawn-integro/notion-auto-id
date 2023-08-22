@@ -8,6 +8,7 @@ const notion = new Client({ auth: process.env.NOTION_KEY });
 const notionDatabaseId = process.env.NOTION_DATABASE_ID;
 const notionPageTitle = process.env.NOTION_PAGE_TITLE;
 const notionPageId = process.env.NOTION_PAGE_ID;
+const checkInterval = process.env.CHECK_INTERVAL;
 
 
 
@@ -62,7 +63,7 @@ async function postStatsToNotion(pageId, newVal) {
 
 
 
-setInterval(checkOnInterval, 1000);
+setInterval(checkOnInterval, checkInterval*1000);
 
 async function checkOnInterval() {
 
