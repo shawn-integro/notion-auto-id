@@ -1,9 +1,5 @@
 const { Client } = require("@notionhq/client");
 
-// these are not needed if using the Vercel environment variable
-// const dotenv = require("dotenv");
-// dotenv.config();
-
 const notion = new Client({ auth: process.env.NOTION_KEY });
 const notionDatabaseId = process.env.NOTION_DATABASE_ID;
 const notionPageTitle = process.env.NOTION_PAGE_TITLE;
