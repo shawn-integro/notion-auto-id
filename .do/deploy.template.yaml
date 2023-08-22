@@ -21,4 +21,4 @@ spec:
       value: "ID"
     - key: CHECK_INTERVAL
       scope: RUN_TIME
-      value: 1
+      value: "1"
