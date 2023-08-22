@@ -15,5 +15,10 @@ spec:
       scope: RUN_TIME
     - key: NOTION_PAGE_TITLE
       scope: RUN_TIME
+      value: "Ticket"
     - key: NOTION_PAGE_ID
       scope: RUN_TIME
+      value: "ID"
+    - key: CHECK_INTERVAL
+      scope: RUN_TIME
+      value: 1
